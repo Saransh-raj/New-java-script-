@@ -16,3 +16,9 @@ let someNumber = 33
 let StringNumber = String(someNumber)
 console.log(StringNumber)
 console.log(typeof StringNumber)
+
+// convert string to number and add
+let str = "234"
+let str2 = Number(str) // string converting into number
+let str3 = 543
+console.log(str2 + str3) // adding
