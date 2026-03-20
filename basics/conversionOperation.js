@@ -22,3 +22,12 @@ let str = "234"
 let str2 = Number(str) // string converting into number
 let str3 = 543
 console.log(str2 + str3) // adding
+
+let val = 3
+let negval = -val // negative of val
+console.log(negval) // -3
+
+console.log("2" + 2) // 22
+console.log(2 + "2") // 22
+console.log("2" + 2 + 2) // 222
+console.log(2 + 2 + "2") // 42
