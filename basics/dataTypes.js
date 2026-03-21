@@ -19,3 +19,20 @@
 
 console.log(typeof undefined) // it will print object type in java
 console.log(typeof null) // it will print object type in java
+
+
+// arrays
+const arr = ["shaktiman", "batman", "ironman"]
+
+// object
+const myObj = {
+    name: "Saransh",
+    roll: 63,
+    age: 19,
+}
+
+// function
+
+const myFunction = function(){
+    console.log("Hello")
+}
