@@ -45,3 +45,10 @@ function returnValue(getArray){
     return getArray[1]
 }
 console.log(returnValue(myArray))
+
+// declare function and store it into variable
+const funOne = function adding(num1,num2){
+    console.log(num1+num2)
+}
+
+funOne(2,9) // if we store function in variable we have access by variable name
