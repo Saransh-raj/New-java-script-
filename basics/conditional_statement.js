@@ -38,3 +38,8 @@ if(userLoggedIn && debitCard){
 if(userLoggedIn || googleLoggedIn){
     console.log("Allow...!!")
 }
+
+
+// truthy and falsey value
+// falsey value :- false , 0, -0, Bigint On, "", null, undefined, NaN
+// truthy value :- "0", 'false', " ", [], {}, function(){}
